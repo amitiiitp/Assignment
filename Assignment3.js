@@ -1,5 +1,7 @@
 // Program for printing number from 1 to 50 after every 1 second
 /*
+// Using setInterval Method
+
 var count = 0;
 var fun = function () {
   if (count < 50) {
@@ -15,6 +17,24 @@ var id = setInterval(fun, 1000);
 
 
 */
+
+// Using Iterative approach
+/*
+var fun = function (value) {
+  setTimeout(function () {
+    console.log(value);
+  }, value * 1000);
+}
+
+for (var i = 1; i <= 50; i++) {
+  fun(i);
+}
+
+
+*/
+
+// Using Recursion Method
+
 
 var count = 1;
 
