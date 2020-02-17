@@ -9,14 +9,6 @@ function addAsynchronously(a, b) {
 
 var sum = numbersToBeAdded[0], i = 1;
 
-var countValue = function (sumSoFar) {
-  if (i < numbersToBeAdded.length) {
-    i += 1;
-    sum = sumSoFar;
-    console.log(sum);
-  }
-}
-
 var callback = function (sumSoFar) {
 
   if (i < numbersToBeAdded.length) {
