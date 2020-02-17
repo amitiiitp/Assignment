@@ -1,6 +1,6 @@
 // Program for printing number from 1 to 50 after every 1 second
 /*
-// Using setInterval Method
+// Using setInterval Function
 
 var count = 0;
 var fun = function () {
