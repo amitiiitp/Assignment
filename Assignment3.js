@@ -15,26 +15,31 @@ var fun = function () {
 }
 var id = setInterval(fun, 1000);
 
-
 */
+
 
 // Using Iterative approach
-/*
-var fun = function (value) {
+
+// var fun = function (value) {
+//   setTimeout(function () {
+//     console.log(value);
+//   }, value * 1000);
+// }
+
+// for (var i = 1; i <= 50; i++) {
+//   fun(i);
+// }
+
+
+for (let i = 1; i <= 50; i++) {
   setTimeout(function () {
-    console.log(value);
-  }, value * 1000);
+    console.log(i);
+  }, i * 1000);
 }
 
-for (var i = 1; i <= 50; i++) {
-  fun(i);
-}
-
-
-*/
 
 // Using Recursion Method
-
+/*
 
 var count = 1;
 
@@ -58,5 +63,5 @@ var fun1 = function () {
 
 fun1();
 
-
+*/
 
